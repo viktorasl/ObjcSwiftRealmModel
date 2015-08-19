@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ObjCModel.h"
+#import "ObjcSwiftRealmModel-Swift.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    ObjCModel *objcmodel = [[ObjCModel alloc] initWithJSONDictionary:nil];
+    SwiftModel *swiftModel = [[SwiftModel alloc] initWithJSONDictionary:nil];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

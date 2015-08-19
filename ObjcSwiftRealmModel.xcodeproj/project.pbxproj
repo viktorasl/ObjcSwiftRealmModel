@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E82491C1B84689E00554EA5 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E82491B1B84689E00554EA5 /* RLMObject+JSON.m */; };
+		6E8D15291B81D5A500467E3D /* SwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D15281B81D5A500467E3D /* SwiftVC.swift */; };
 		6ED731771B81D332006AC4B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED731761B81D332006AC4B2 /* main.m */; };
 		6ED7317A1B81D332006AC4B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED731791B81D332006AC4B2 /* AppDelegate.m */; };
 		6ED7317D1B81D332006AC4B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7317C1B81D332006AC4B2 /* ViewController.m */; };
@@ -14,6 +16,9 @@
 		6ED731821B81D332006AC4B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ED731811B81D332006AC4B2 /* Images.xcassets */; };
 		6ED731851B81D332006AC4B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED731831B81D332006AC4B2 /* LaunchScreen.xib */; };
 		6ED731911B81D332006AC4B2 /* ObjcSwiftRealmModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED731901B81D332006AC4B2 /* ObjcSwiftRealmModelTests.m */; };
+		6ED7319C1B81D475006AC4B2 /* ObjCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7319B1B81D475006AC4B2 /* ObjCModel.m */; };
+		6ED7319F1B81D48F006AC4B2 /* SwiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED7319E1B81D48F006AC4B2 /* SwiftModel.swift */; };
+		A47A37A85018BA42F53D5EFB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0615AA765C5939A8724B51 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36DEB15742C16FF1A10274D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6E82491A1B84689E00554EA5 /* RLMObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+JSON.h"; sourceTree = "<group>"; };
+		6E82491B1B84689E00554EA5 /* RLMObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+JSON.m"; sourceTree = "<group>"; };
+		6E8D15281B81D5A500467E3D /* SwiftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftVC.swift; sourceTree = "<group>"; };
 		6ED731711B81D332006AC4B2 /* ObjcSwiftRealmModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcSwiftRealmModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED731751B81D332006AC4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ED731761B81D332006AC4B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,12 @@
 		6ED7318A1B81D332006AC4B2 /* ObjcSwiftRealmModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcSwiftRealmModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED7318F1B81D332006AC4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ED731901B81D332006AC4B2 /* ObjcSwiftRealmModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcSwiftRealmModelTests.m; sourceTree = "<group>"; };
+		6ED7319A1B81D475006AC4B2 /* ObjCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCModel.h; sourceTree = "<group>"; };
+		6ED7319B1B81D475006AC4B2 /* ObjCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCModel.m; sourceTree = "<group>"; };
+		6ED7319D1B81D48F006AC4B2 /* ObjcSwiftRealmModel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjcSwiftRealmModel-Bridging-Header.h"; sourceTree = "<group>"; };
+		6ED7319E1B81D48F006AC4B2 /* SwiftModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftModel.swift; sourceTree = "<group>"; };
+		CBC1788A47C7FAE3233FF1E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CD0615AA765C5939A8724B51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47A37A85018BA42F53D5EFB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,8 @@
 				6ED731731B81D332006AC4B2 /* ObjcSwiftRealmModel */,
 				6ED7318D1B81D332006AC4B2 /* ObjcSwiftRealmModelTests */,
 				6ED731721B81D332006AC4B2 /* Products */,
+				B1708280EBC723328A5EAFF2 /* Pods */,
+				A1AEA9EB85D9DF7C04A4CED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +107,13 @@
 				6ED731811B81D332006AC4B2 /* Images.xcassets */,
 				6ED731831B81D332006AC4B2 /* LaunchScreen.xib */,
 				6ED731741B81D332006AC4B2 /* Supporting Files */,
+				6ED7319A1B81D475006AC4B2 /* ObjCModel.h */,
+				6ED7319B1B81D475006AC4B2 /* ObjCModel.m */,
+				6ED7319E1B81D48F006AC4B2 /* SwiftModel.swift */,
+				6ED7319D1B81D48F006AC4B2 /* ObjcSwiftRealmModel-Bridging-Header.h */,
+				6E8D15281B81D5A500467E3D /* SwiftVC.swift */,
+				6E82491A1B84689E00554EA5 /* RLMObject+JSON.h */,
+				6E82491B1B84689E00554EA5 /* RLMObject+JSON.m */,
 			);
 			path = ObjcSwiftRealmModel;
 			sourceTree = "<group>";
@@ -119,6 +144,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A1AEA9EB85D9DF7C04A4CED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0615AA765C5939A8724B51 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1708280EBC723328A5EAFF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36DEB15742C16FF1A10274D8 /* Pods.debug.xcconfig */,
+				CBC1788A47C7FAE3233FF1E6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ED731941B81D332006AC4B2 /* Build configuration list for PBXNativeTarget "ObjcSwiftRealmModel" */;
 			buildPhases = (
+				6505B29E9EE80492CA58B6CB /* Check Pods Manifest.lock */,
 				6ED7316D1B81D332006AC4B2 /* Sources */,
 				6ED7316E1B81D332006AC4B2 /* Frameworks */,
 				6ED7316F1B81D332006AC4B2 /* Resources */,
+				FDEB200440874A26E85E2D69 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,12 +258,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6505B29E9EE80492CA58B6CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEB200440874A26E85E2D69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6ED7316D1B81D332006AC4B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6ED7317D1B81D332006AC4B2 /* ViewController.m in Sources */,
+				6ED7319C1B81D475006AC4B2 /* ObjCModel.m in Sources */,
+				6E82491C1B84689E00554EA5 /* RLMObject+JSON.m in Sources */,
+				6E8D15291B81D5A500467E3D /* SwiftVC.swift in Sources */,
+				6ED7319F1B81D48F006AC4B2 /* SwiftModel.swift in Sources */,
 				6ED7317A1B81D332006AC4B2 /* AppDelegate.m in Sources */,
 				6ED731771B81D332006AC4B2 /* main.m in Sources */,
 			);
@@ -345,21 +426,28 @@
 		};
 		6ED731951B81D332006AC4B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DEB15742C16FF1A10274D8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ObjcSwiftRealmModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjcSwiftRealmModel/ObjcSwiftRealmModel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6ED731961B81D332006AC4B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC1788A47C7FAE3233FF1E6 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ObjcSwiftRealmModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjcSwiftRealmModel/ObjcSwiftRealmModel-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -416,6 +504,7 @@
 				6ED731961B81D332006AC4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ED731971B81D332006AC4B2 /* Build configuration list for PBXNativeTarget "ObjcSwiftRealmModelTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +513,7 @@
 				6ED731991B81D332006AC4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
